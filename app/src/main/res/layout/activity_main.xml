@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
 
-    <com.chibde.visualizer.BarVisualizer
+    <com.stas.myapplication.BarVisualizer
         android:id="@+id/visualizer"
         android:layout_width="match_parent"
         android:layout_height="250dp"/>

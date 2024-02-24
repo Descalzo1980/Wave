@@ -80,5 +80,6 @@ class MainActivity : AppCompatActivity(), Runnable {
     private fun clearMediaPlayer() {
         mediaPlayer.stop()
         mediaPlayer.release()
+        binding.visualizer.release()
     }
 }
